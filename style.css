@@ -13,6 +13,27 @@ header {
 }
 main {
   padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+.form-section {
+  background: #f0f0f0;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+.form-section input[type="email"] {
+  padding: 10px;
+  width: 60%;
+  max-width: 300px;
+  margin-right: 10px;
+}
+.form-section button {
+  padding: 10px 15px;
+  background: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 footer {
   background-color: #eee;
